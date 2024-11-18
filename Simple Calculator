@@ -1,0 +1,15 @@
+print("Simple Calculator")
+a=float(input("Enter first number :"))
+b=float(input("Enter second number :"))
+print("1. Addition \n 2. Subtractions \n 3. Multiplication \n 4. Division")
+choice=int(input("Choose an option :"))
+if choice==1:
+    print("Addition of ",a,'+',b, '=', a+b)
+elif choice==2:
+    print("Subtraction of ",a,'+',b, '=', a-b)
+elif choice==3:
+    print("Multiplication of",a,'+',b, '=', a*b)
+elif choice==4:
+    print("Division of ",a,'+',b, '=', a/b)
+else:
+    print("Invalid input\nPlease enter a number from 1,2,3,4")
